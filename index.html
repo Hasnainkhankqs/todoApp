@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Todo App</h1>
+    <div>
+
+    <input type = "text" autofocus id = "todoInput" onkeydown = "if(event.keyCode == 13)document.getElementById('enter').click()"/>
+
+<input type = "button" id = "enter" value = "Add todo list" onclick = "addTodo();"/>
+    </div>
+    <div>
+        <h3 id="todoHeading">Your list will be appear here</h3>
+        <ol id="todoList">
+        </ol>
+        <input type="button" name="todoRemovebtn" value="Remove List" onclick="Remove()">
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
