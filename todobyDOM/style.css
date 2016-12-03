@@ -1,0 +1,129 @@
+body{
+    width:100%;
+    margin: 0px;
+    padding:0px;
+    background-color:lightslategray;
+}
+#wrapper{
+    background-color:#2196F3;
+    max-width: 450px;
+    box-shadow: -2px 3px 10px black;
+    margin: auto;
+    margin-top:40px;
+    border-radius: 100px;
+    padding:30px;
+    height: 500px;
+ }
+ul{
+    
+       overflow: auto;
+       height:450px;
+}
+header{
+  margin-left: 40px;
+  max-width: 330px;
+  height:65px;
+  position:fixed;
+  padding:4px;
+  background:#2162f3;
+  box-shadow:0px 2px 4px rgba(44,62,80,0.15);
+  border-radius: 100px;
+}
+#add{
+    float: right;
+    margin-right:20px;
+    margin-top:-50px;
+    border-radius: 100px;
+    width:40px;
+    height:40px;
+    border:0px;
+    color:white;
+    background-color:#2196F3;
+    text-shadow: -0.5px 0.5px 2px black;
+    box-shadow: -0.1px 0.1px 3px black;
+    transition: all 0.5s ;
+    position: relative;  /*when i delete it why it go behind the input field*/
+
+
+}
+
+#add:hover{
+    background-color:snow;
+    box-shadow: -0.3px 0.3px 7px black;
+    cursor:pointer;
+    color:gray
+}
+input{
+    position:relative;
+    left:5px;
+    width: 250px;
+    padding:15px;
+    padding-right: 55px;
+    font-size: 30px;
+    border-radius: 100px;
+    border:0px;
+}
+input{
+    background-color:rgba(51, 176, 249, 0.64);
+}
+input[placeholder] {
+   color: white;
+}
+
+::-webkit-input-placeholder { 
+  color: gray;
+}
+ul{
+    background-color:lightskyblue;
+    list-style-type: none;
+    position: fixed;
+    width: 400px;
+    z-index: ;
+}
+ul li{
+    background-color:lime;
+    border:1px solid gray;
+    overflow-y:auto;
+    overflow-x: hidden;
+    height: 50px;
+    margin-top:50px;
+
+
+}
+
+/* Css3 scroll bar start */
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #8080ff;
+  border: 0px none #ffffff;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6262ff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #8000ff;
+}
+::-webkit-scrollbar-track {
+  background: #d7d7ff;
+  border: 0px none #ffffff;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #d7d7ff;
+}
+::-webkit-scrollbar-track:active {
+  background: #d7d7ff;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+/*CSS3 scroll bar end*/
