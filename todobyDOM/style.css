@@ -28,6 +28,7 @@ header{
   background:#2162f3;
   box-shadow:0px 2px 4px rgba(44,62,80,0.15);
   border-radius: 100px;
+  z-index: 1;
 }
 #add{
     float: right;
@@ -74,11 +75,9 @@ input[placeholder] {
   color: gray;
 }
 ul{
-    background-color:lightskyblue;
     list-style-type: none;
     position: fixed;
     width: 400px;
-    z-index: ;
 }
 ul li{
     background-color:lime;
