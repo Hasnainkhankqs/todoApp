@@ -21,7 +21,7 @@ function addlist(takeInput){
     div.classList.add("buttons")
     var remove = document.createElement("button")
     remove.classList.add("remove");
-    remove.innerHTML = removeSvg;
+    remove.innerHTML = "Remove This";
     div.appendChild(remove);
     li.appendChild(div);
     var ul = document.getElementById("todo");

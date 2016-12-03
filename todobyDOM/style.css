@@ -17,7 +17,10 @@ body{
 ul{
     
        overflow: auto;
+      width: 400px;
        height:450px;
+      list-style-type: none;
+      position: fixed;
 }
 header{
   margin-left: 40px;
@@ -71,16 +74,9 @@ input[placeholder] {
    color: white;
 }
 
-::-webkit-input-placeholder { 
-  color: gray;
-}
-ul{
-    list-style-type: none;
-    position: fixed;
-    width: 400px;
-}
+
 ul li{
-    background-color:lime;
+    background-color:lightskyblue;
     border:1px solid gray;
     overflow-y:auto;
     overflow-x: hidden;
@@ -90,6 +86,9 @@ ul li{
 
 }
 
+::-webkit-input-placeholder { 
+  color: gray;
+}
 /* Css3 scroll bar start */
 
 ::-webkit-scrollbar {
