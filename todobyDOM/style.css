@@ -15,7 +15,6 @@ body{
     height: 500px;
  }
 ul{
-    
        overflow: auto;
       width: 400px;
        height:450px;
@@ -78,12 +77,16 @@ input[placeholder] {
 ul li{
     background-color:lightskyblue;
     border:1px solid gray;
-    overflow-y:auto;
-    overflow-x: hidden;
-    height: 50px;
-    margin-top:50px;
-
-
+    overflow-y: hidden;
+    overflow-x:auto;
+    height: 20px;
+    padding:10px;
+    margin-top:20px;
+    border-radius: 25px;
+    
+}
+li:first-child{
+  margin-top:80px;
 }
 
 ::-webkit-input-placeholder { 
@@ -125,3 +128,13 @@ ul li{
   background: transparent;
 }
 /*CSS3 scroll bar end*/
+.remove{
+  border-radius: 100px;
+  width:26px;
+  height: 26px;
+  padding: 1px;
+  float: right;
+  margin-top:-23px;
+  position: absolute;
+  left:400px;
+}
